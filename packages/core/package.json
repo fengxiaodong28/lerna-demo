@@ -1,6 +1,6 @@
 {
   "name": "@lerna-demo/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lerna-demo core",
   "author": "fengxiaodong <budfxd@163.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@lerna-demo/util": "^1.0.0",
+    "@lerna-demo/util": "^1.0.1",
     "axios": "^1.6.7"
   }
 }
