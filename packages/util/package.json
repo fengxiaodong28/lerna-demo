@@ -1,0 +1,25 @@
+{
+  "name": "@lerna-demo/util",
+  "version": "1.0.0",
+  "description": "lerna-demo util",
+  "author": "fengxiaodong <budfxd@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/util.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/util.test.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@lerna-demo/core",
+  "version": "1.0.0",
+  "description": "lerna-demo core",
+  "author": "fengxiaodong <budfxd@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@lerna-demo/util": "^1.0.0",
+    "axios": "^1.6.7"
+  }
+}
